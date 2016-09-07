@@ -2,6 +2,10 @@
 using System.Configuration;
 using System.Reflection;
 
+/*
+ * Testing a update
+*/
+
 namespace Nardax
 {
     public static class AssemblyExtensions
