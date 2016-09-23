@@ -18,7 +18,7 @@ namespace Nardax
             {
                 return configuration.AppSettings.Settings[key].Value;
             }
-
+            // Adding a useless comment
             throw new IndexOutOfRangeException(string.Format(ExceptionMessages.SettingsKeyNotFound, key));
         }
     }
